@@ -1,0 +1,50 @@
+/* Write your CSS code here */
+.loginform-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  height: 100vh;
+}
+
+.image {
+  width: 500px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.website-logo {
+  height: 50px;
+}
+
+.text {
+  font-family: 'Roboto';
+  color: '#1e293b';
+}
+
+.input {
+  background-color: lightgray;
+  border: 0px;
+  height: 25px;
+}
+
+.login {
+  margin-top: 10px;
+  height: 30px;
+  background-color: #0b69ff;
+  border: 0px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border-radius: 5px;
+}
+
+.error-message {
+  color: #ff0b37;
+  font-family: 'Roboto';
+}
