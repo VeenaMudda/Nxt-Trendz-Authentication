@@ -1,0 +1,64 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.logo {
+  height: 30px;
+}
+
+.options-container {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.text {
+  text-decoration: none;
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+
+.button {
+  background-color: #0b69ff;
+  padding: 5px;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.log {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Roboto';
+}
+
+.content-container {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+
+.content {
+  color: #64748b;
+  font-family: 'Roboto';
+}
+
+.image {
+  height: 490px;
+}
